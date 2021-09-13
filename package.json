@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"name": "krisna-satya",
 	"version": "1.0.0",
 	"description": "",
@@ -15,4 +16,22 @@
 		"postcss": "^8.3.6",
 		"tailwindcss": "^2.2.15"
 	}
+=======
+  "name": "krisna-satya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i src/tailwind.css -o build/styles.css",
+    "watch": "tailwindcss -i src/tailwind.css -o build/styles.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  }
+>>>>>>> 2e49dc3c49297b313545f3704258cb0032c3b11b
 }
