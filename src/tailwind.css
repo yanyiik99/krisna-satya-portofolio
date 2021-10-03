@@ -25,10 +25,10 @@
   
   /* Button  */
   .out-btn {
-    @apply flex relative justify-center -top-28 sm:top-14 md:top-14 lg:-top-7 lg:left-6 lg:justify-start xl:top-0;
+    @apply flex relative justify-center -top-64 sm:top-14 md:top-14 lg:-top-7 lg:left-6 lg:justify-start xl:top-0;
   }
 
   .btn-blue {
-    @apply bg-blue-400 text-white font-rightNav text-lg py-4 px-8 md:text-2xl md:py-6 md:px-12 rounded-xl uppercase select-none;
+    @apply bg-blue-400 text-white font-rightNav text-base py-3 px-5 sm:text-lg sm:py-4 sm:px-9 md:text-2xl md:py-6 md:px-12 rounded-xl uppercase select-none;
   }
 }

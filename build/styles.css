@@ -1,4 +1,4 @@
-/*! tailwindcss v2.2.15 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v2.2.16 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -713,7 +713,7 @@ nav {
 
 .out-btn {
   position: relative;
-  top: -7rem;
+  top: -16rem;
   display: flex;
   justify-content: center;
 }
@@ -758,16 +758,33 @@ nav {
   border-radius: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
   font-family: Archivo Black, sans;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   text-transform: uppercase;
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .btn-blue {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .btn-blue {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+
+  .btn-blue {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -815,16 +832,12 @@ nav {
   top: 7rem;
 }
 
-.-top-7 {
-  top: -1.75rem;
+.-top-2 {
+  top: -0.5rem;
 }
 
-.left-4 {
-  left: 1rem;
-}
-
-.-top-40 {
-  top: -10rem;
+.-top-72 {
+  top: -18rem;
 }
 
 .z-10 {
@@ -868,24 +881,28 @@ nav {
   height: 100%;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .w-3\/5 {
   width: 60%;
 }
 
-.w-260 {
-  width: 16.25rem;
+.w-52 {
+  width: 13rem;
+}
+
+.w-7 {
+  width: 1.75rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .w-10 {
   width: 2.5rem;
-}
-
-.w-11 {
-  width: 2.75rem;
-}
-
-.w-14 {
-  width: 3.5rem;
 }
 
 .min-w-full {
@@ -896,12 +913,6 @@ nav {
   min-width: -webkit-max-content;
   min-width: -moz-max-content;
   min-width: max-content;
-}
-
-.min-w-min {
-  min-width: -webkit-min-content;
-  min-width: -moz-min-content;
-  min-width: min-content;
 }
 
 .cursor-pointer {
@@ -960,8 +971,8 @@ nav {
   padding-top: 6rem;
 }
 
-.pt-360 {
-  padding-top: 22.5rem;
+.pt-300 {
+  padding-top: 18.75rem;
 }
 
 .text-center {
@@ -997,6 +1008,16 @@ nav {
   line-height: 1;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1021,12 +1042,24 @@ nav {
 }
 
 @media (min-width: 640px) {
-  .sm\:left-20 {
-    left: 5rem;
+  .sm\:-top-7 {
+    top: -1.75rem;
+  }
+
+  .sm\:left-16 {
+    left: 4rem;
   }
 
   .sm\:top-5 {
     top: 1.25rem;
+  }
+
+  .sm\:left-20 {
+    left: 5rem;
+  }
+
+  .sm\:h-14 {
+    height: 3.5rem;
   }
 
   .sm\:w-550 {
@@ -1035,6 +1068,18 @@ nav {
 
   .sm\:w-420 {
     width: 26.25rem;
+  }
+
+  .sm\:w-10 {
+    width: 2.5rem;
+  }
+
+  .sm\:w-11 {
+    width: 2.75rem;
+  }
+
+  .sm\:w-14 {
+    width: 3.5rem;
   }
 
   .sm\:pt-32 {
@@ -1049,11 +1094,20 @@ nav {
     font-size: 4.5rem;
     line-height: 1;
   }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 768px) {
   .md\:top-28 {
     top: 7rem;
+  }
+
+  .md\:-top-12 {
+    top: -3rem;
   }
 
   .md\:top-7 {
@@ -1081,8 +1135,8 @@ nav {
     padding-right: 3.5rem;
   }
 
-  .md\:pt-700 {
-    padding-top: 43.75rem;
+  .md\:pt-680 {
+    padding-top: 42.5rem;
   }
 
   .md\:text-center {
@@ -1092,6 +1146,16 @@ nav {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
@@ -1114,6 +1178,10 @@ nav {
 
   .lg\:block {
     display: block;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:w-44 {
